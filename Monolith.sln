@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaver", "FileSaver\FileSaver.csproj", "{8420AA1A-E11D-49ED-ADD9-632941E2C690}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaverApi", "FileSaverApi\FileSaverApi.csproj", "{0D0DA9CA-0B57-41B2-A647-6234B760B33C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientFileSaver", "ClientFileSaver\ClientFileSaver.csproj", "{958DF5DF-0942-4BC7-B38D-5EA4AA2C0018}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8420AA1A-E11D-49ED-ADD9-632941E2C690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8420AA1A-E11D-49ED-ADD9-632941E2C690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8420AA1A-E11D-49ED-ADD9-632941E2C690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0DA9CA-0B57-41B2-A647-6234B760B33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0DA9CA-0B57-41B2-A647-6234B760B33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0DA9CA-0B57-41B2-A647-6234B760B33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0DA9CA-0B57-41B2-A647-6234B760B33C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958DF5DF-0942-4BC7-B38D-5EA4AA2C0018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958DF5DF-0942-4BC7-B38D-5EA4AA2C0018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958DF5DF-0942-4BC7-B38D-5EA4AA2C0018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958DF5DF-0942-4BC7-B38D-5EA4AA2C0018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

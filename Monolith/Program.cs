@@ -1,5 +1,6 @@
 ﻿
 
+using ClientFileSaver;
 using Entities;
 using FileSaver;
 using Interfaces;
@@ -10,9 +11,10 @@ var kat = new Kat()
     Name = "Evangeline", 
     Weight = 8.5m
 };
-var fileSave = new FileSave();
-var execute = new Execute(fileSave);
-execute.Save(kat);
+//var fileSave = new FileSave();
+var httpFileSaver = new HttpFileSaver();
+var execute = new Execute(httpFileSaver);
+await execute.Save(kat);
 
 
 public class Execute
@@ -24,9 +26,9 @@ public class Execute
         _actionService = actionService;
     }
 
-    public void Save(Kat kat)
+    public async Task Save(Kat kat)
     {
-        _actionService.ExcecuteAction(kat);
+        await _actionService.ExcecuteAction(kat);
     }
 
 }
